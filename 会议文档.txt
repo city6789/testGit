@@ -1,3 +1,33 @@
-1����һ��
-2���ڶ���
-3��������
+配置git push不用每次输入用户名和密码
+https://blog.csdn.net/u013291076/article/details/80886819
+
+--提交步骤
+git add
+git commit -m "注释"
+git push
+
+--拉代码
+git pull
+
+--推送远程
+git push <远程主机名> <本地分支名>:<远程分支名>
+git push origin dev_heshiyang:master
+
+
+-----拉取远程
+git pull <远程主机名> <远程分支名>:<本地分支名>
+git pull origin master:dev_heshiyang
+origin/dev_heshiyang
+
+--获取远程分支debug的修改
+git fetch origin master
+
+--合并远程分支debug
+git merge origin master
+
+--更新本地分支
+git pull origin master
+
+
+
+搜索 Everything
